@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payment Ku | Modern Digital Payments</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+ 
+  <div class="loading-screen" id="loadingScreen">
+    <div class="loader">
+      <div class="loader-circle"></div>
+      <div class="loader-circle"></div>
+      <div class="loader-circle"></div>
+      <div class="loader-circle"></div>
+      <div class="loader-circle"></div>
+    </div>
+    <div class="loading-text">Memuat Pembayaran...</div>
+  </div>
+
+  <div class="particles" id="particles"></div>
+  
+  <div class="container">
+    <div class="logo-container">
+      <img src="https://files.catbox.moe/cfpcv0.png" alt="Payment Ku Logo" class="logo">
+    </div>
+    
+    <h1>Digital Payment Solutions skytech</h1>
+    <p class="subtitle">Pilih metode pembayaran favorit Anda</p>
+    
+    <div class="payment-grid">
+      <div class="payment-method" onclick="showPayment('dana')">
+        <i class="payment-icon fas fa-wallet"></i>
+        <span class="payment-name">DANA</span>
+      </div>
+      
+      <div class="payment-method" onclick="showPayment('gopay')">
+        <i class="payment-icon fas fa-money-bill-wave"></i>
+        <span class="payment-name">GOPAY</span>
+      </div>
+      
+      <div class="payment-method" onclick="showPayment('seabank')">
+        <i class="payment-icon fas fa-piggy-bank"></i>
+        <span class="payment-name">SeaBank</span>
+      </div>
+      
+      <div class="payment-method" onclick="showPayment('bri')">
+        <i class="payment-icon fas fa-university"></i>
+        <span class="payment-name">BRI</span>
+      </div>
+      
+      <div class="payment-method" onclick="showPayment('ovo')">
+        <i class="payment-icon fas fa-mobile-alt"></i>
+        <span class="payment-name">OVO</span>
+      </div>
+      
+      <div class="payment-method" onclick="showPayment('qris')">
+        <i class="payment-icon fas fa-qrcode"></i>
+        <span class="payment-name">QRIS</span>
+      </div>
+    </div>
+    
+    <div class="payment-details" id="payment-details">
+    </div>
+    
+    <div class="footer">
+      &copy; 2025 Payment Ku. All rights reserved.
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
