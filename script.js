@@ -65,14 +65,14 @@ document.addEventListener('DOMContentLoaded', () => {
       dana: {
         icon: 'fa-wallet',
         name: 'DANA',
-        number: '0838-4325-2269',
-        instructions: 'Kirim ke nomor DANA di atas atau scan QR code di aplikasi DANA Anda.'
+        number: '0896-9196-0569',
+        instructions: 'Kirim ke nomor DANA di atas nama : A/F.'
       },
       gopay: {
         icon: 'fa-money-bill-wave',
         name: 'GOPAY',
-        number: '-',
-        instructions: 'Mohon maaf, saya belum mempunyai ewallet Gopay'
+        number: '0851-9477-9603',
+        instructions: 'Kirim ke nomor GOPAY di atas'
       },
       seabank: {
         icon: 'fa-piggy-bank',
