@@ -89,8 +89,8 @@ document.addEventListener('DOMContentLoaded', () => {
       ovo: {
         icon: 'fa-mobile-alt',
         name: 'OVO',
-        number: '-',
-        instructions: 'Mohon maaf, saya belum mempunyai ewallet Ovo'
+        number: '0822-7369-0411',
+        instructions: 'Kirim ke nomor OVO di atas'
       },
       qris: {
         icon: 'fa-qrcode',
@@ -110,7 +110,7 @@ document.addEventListener('DOMContentLoaded', () => {
         </div>
         <p>${data.instructions}</p>
         <div class="qris-container">
-          <img src="https://e.top4top.io/p_3412v63nw1.png" alt="QRIS Code" class="qris-img">
+          <img src="https://files.catbox.moe/n4a53t.jpeg" alt="QRIS Code" class="qris-img">
         </div>
         <p class="instructions">Pastikan Anda melakukan pembayaran dengan nominal yang benar.</p>
       `;
